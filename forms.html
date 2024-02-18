@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amo te | Vaz</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1> Pedido de permanência na vida da Byanca</h1>
+    <hr>
+    <form method="get" action="enviarpara.jsp">
+        <p>- Insira seu nome completo: <input type="text" name="nome"></p> 
+        <p>- Insira seu CPF: <input type="CPF"></p> 
+        <p>- Insira seu e-mail: <input type="email"></p> 
+        <p>- Insira o nome do nosso futuro animal de estimação: <input type="email"></p> 
+        <p> Ele será um:</p>
+        <select name="tipo">
+          <option>Cachorro</option> 
+          <option>Gato</option> 
+          <option>Papagaio</option> 
+          <option>Tartaruga</option> 
+          <option>Peixe</option> 
+          <option>Todas as opções (mutante)</option> 
+        </select>
+        <p>- Motivo pelo preenchimento: <br>"Porque..." </p>
+        <input type="radio" value="1"> amo te
+        <input type="radio" value="2"> você pediu
+        <input type="radio" value="3"> eu quero
+        <input type="radio" value="4"> sim
+        <br>
+    <p>- Dê acordo com a Byanca, qual é seu apelido?</p>
+        <select name="apelido">
+          <option>Carrapato</option> 
+          <option>Amorzinho</option> 
+          <option>Periquitinho</option> 
+          <option>Luquinjas</option> 
+          <option>Amor da minha vida</option> 
+          <option>Todas as opções.</option> 
+        </select>
+        <hr>
+        <h4>Termos e condições</h4>
+        <input type="checkbox" name="termos" value="sim"> Aceito todos os termos que você quiser.
+        <br>
+        <input type="checkbox" name="termos" value="nao"> Não aceito os termos, quero sair da sua vida, cachorra.
+        <br>
+        Declare: <textarea name="declaracao" rows="2" cols="50">
+        </textarea>
+        <br>
+
+        <input type="submit">
+    
+    </form>
+    <h1> SAVE THE DATE: <input type="date" name="data">
+    </h1>
+    <img src="amor.jpg" width="528">
+
+</body>
+</html>
